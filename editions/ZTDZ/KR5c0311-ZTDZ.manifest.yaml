@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0311/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0311/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 通幽訣
+  date: '2015-08-29 00:55:53.506485'
+  source:
+    repository: kanripo
+    path: KR5c0311
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0311_000-ZTDZ.yaml, hash: 'sha256:3c6fc5c75f20181f94f91bef09328b890dc1748043e622cf7cc1c3b3bc81d7d8'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0311_000-ZTDZ.markers.yaml, hash: 'sha256:e0617908afb32d2bbc9b145eb9caf3bb141dbc58dd5e35558bc4bcf8e6f9e02d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0311_SJB_000-190150a
+    span:
+    - body
+    - 0
+    - 7583
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:2d9bae32f75f913fa3b57638077c6868c1f1a353ec6c8a31f1fa23021ddacd37

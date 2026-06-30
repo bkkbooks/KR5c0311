@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR5c0311/v1
+canonical_location: https://kanripo.org/bkk/KR5c0311/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 通幽訣
+  identifiers:
+    alt_id:
+    - DZ0913
+  date: '2015-08-29 00:55:53.506485'
+  source:
+    repository: kanripo
+    path: KR5c0311
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0311_000.yaml, hash: 'sha256:9a4cdf870acbbb59d947a9bbf5961a1f180034a7c51b3a44fc75ca37604b4536'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0311_000.markers.yaml, hash: 'sha256:902daeccc6a48faeac71e03ac157ead0e02e1afc66a5d8896addd719cab3d481'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0311_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 7583
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:685da885f2c94133211c529c02c012c8902fde15758c7f61d5182e12d4f058c4
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
